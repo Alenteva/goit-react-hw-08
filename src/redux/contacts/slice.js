@@ -1,5 +1,10 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-import { fetchContacts, addContact, deleteContact } from "./contactsOps";
+import {
+  fetchContacts,
+  addContact,
+  deleteContact,
+  updateContact,
+} from "./operations";
 
 const handlePending = (state) => {
   state.isLoading = true;

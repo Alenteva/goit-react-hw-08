@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "./redux/contactsOps";
-import { selectIsLoading, selectError } from "./redux/selectors";
+import { fetchContacts } from "./redux/contacts/operations";
+import { selectIsLoading, selectError } from "./redux/contacts/selectors";
 
 import ContactForm from "./components/contactform/contactform";
 import SearchBox from "./components/searchbox/searchbox";
