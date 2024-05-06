@@ -2,7 +2,7 @@ import css from "../HomePage/HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <>
+    <div>
       <div>
         <h2 className={css["Title"]}>Welcome to Phonebook! </h2>
       </div>
@@ -19,7 +19,7 @@ const HomePage = () => {
       <div>
         <footer>Created with ❤️ by Marina Alenteva</footer>
       </div>
-    </>
+    </div>
   );
 };
 
