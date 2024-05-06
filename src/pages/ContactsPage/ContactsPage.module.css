@@ -1,0 +1,16 @@
+.ContactsPageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  margin-bottom: 0;
+  margin-top: 60px;
+  color: rgb(8, 2, 32);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.8;
+}

@@ -1,0 +1,29 @@
+.UserMenu {
+  display: flex;
+  gap: 40px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.UserWelcome {
+  font-size: 20px;
+  color: rgb(159, 73, 240);
+}
+.ButtonLogOut {
+  border-style: none;
+  font-family: "Briem Hand", cursive;
+  color: rgb(8, 2, 32);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ButtonLogOut:hover,
+.ButtonLogOut:focus .ButtonLogOut:active {
+  color: rgb(159, 73, 240);
+  transform: scale(1.1);
+}

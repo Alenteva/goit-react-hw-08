@@ -1,5 +1,5 @@
 .formBox {
-  border: 1px solid yellow;
+  border: 1px solid black;
   border-radius: 20px;
   background-color: rgb(246, 250, 250);
   height: 230px;
@@ -29,6 +29,17 @@ label {
   color: red;
 }
 .buttonAdd {
+  font-family: "Briem Hand", cursive;
+  width: 90px;
+  height: 40px;
+  border: 1px solid rgb(68, 16, 116);
+  border-radius: 10px;
   background-color: rgb(175, 175, 241);
   margin-top: 10px;
+}
+.buttonAdd:hover,
+.buttonAdd:focus,
+.buttonAdd:active {
+  background-color: rgb(159, 73, 240);
+  color: wheat;
 }

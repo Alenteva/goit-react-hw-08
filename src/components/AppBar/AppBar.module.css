@@ -1,9 +1,15 @@
 .AppBar {
-  width: 1000px;
-  height: 40px;
+  width: 900px;
+  height: 70px;
   display: flex;
   align-items: center;
-  margin-left: 60px;
+  margin-top: 0;
+  padding-top: 20px;
+  background-color: white;
   border-bottom: 2px solid black;
   justify-content: space-between;
+  position: fixed;
+  left: 17%;
+  z-index: 999;
+  box-sizing: border-box;
 }

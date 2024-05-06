@@ -14,15 +14,9 @@ const ContactsPage = () => {
   });
 
   return (
-    <div>
-      <Toaster
-        position="top-right"
-        reverseOrder={false}
-        toastOptions={{
-          className: css.toastTextCenter,
-        }}
-      />
-      <h2 className={css.titleContactPage}>Phonebook</h2>
+    <div className={css["ContactsPageBox"]}>
+      <Toaster position="top-right" reverseOrder={false} toastOptions={{}} />
+      <h2 className={css["Title"]}>Phonebook</h2>
       <ContactForm />
       <SearchBox />
       <ContactList />

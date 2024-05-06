@@ -13,4 +13,5 @@
 .NavLink:hover,
 .NavLink:focus {
   transform: scale(1.1);
+  color: rgb(159, 73, 240);
 }
