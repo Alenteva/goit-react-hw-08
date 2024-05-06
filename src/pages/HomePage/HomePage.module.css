@@ -1,0 +1,12 @@
+.Title {
+  margin-bottom: 0;
+  color: rgb(8, 2, 32);
+  font-size: 24px;
+}
+
+.DescriptionBox {
+  width: 720px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 0;
+}

@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Briem Hand", cursive;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,6 +12,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Briem Hand", cursive;
+  font-style: normal;
+  src: url(https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap.woff2),
+    url(https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap.woff2)
+      format("woff2");
 }
 
 a {
@@ -28,10 +36,14 @@ ul {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
-  background-color: #747bff;
+  /* background-color: #747bff; */
+  background-image: url(https://sotni.ru/wp-content/uploads/2023/08/stopka-knig-4-1.webp;);
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: cover;
 }
 
 h1 {
@@ -39,7 +51,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -49,14 +61,14 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
+} */
+/* button:hover {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {

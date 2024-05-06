@@ -1,0 +1,40 @@
+.FormBox {
+  width: 300px;
+  height: 350px;
+  border: 1px solid rgb(8, 2, 32);
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(243, 245, 249);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+label:has(+ [name])::after {
+  content: " *";
+  color: red;
+}
+
+.Input {
+  width: 250px;
+  height: 25px;
+}
+.ButtonSignUp {
+  font-family: "Briem Hand", cursive;
+  background-color: rgb(243, 245, 249);
+  color: rgb(8, 2, 32);
+  outline: none;
+  border-style: none;
+  font-size: 24px;
+  transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ButtonSignUp:hover,
+.ButtonSignUp:focus .ButtonSignUp:active {
+  color: rgb(159, 73, 240);
+}
+.ErrorMessage {
+  font-size: 16px;
+  color: red;
+  text-align: end;
+}
