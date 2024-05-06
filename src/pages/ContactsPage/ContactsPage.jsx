@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import ContactForm from "../../components/ContactForm/ContactForm";
-import ContactList from "../../components/ContactList/ContactList";
-import SearchBox from "../../components/SearchBox/SearchBox";
+import ContactForm from "../../components/contactform/contactform";
+import ContactList from "../../components/contactList/contactList";
+import SearchBox from "../../components/searchBox/searchBox";
 import { useDispatch } from "react-redux";
 import { fetchContacts } from "../../redux/contacts/operations";
 import { Toaster } from "react-hot-toast";
