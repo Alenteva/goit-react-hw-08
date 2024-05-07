@@ -6,6 +6,8 @@ import {
   updateContact,
 } from "./operations";
 
+import { logOut } from "../auth/operations";
+
 const handlePending = (state) => {
   state.isLoading = true;
 };
@@ -47,7 +49,11 @@ const contactsSlice = createSlice({
         );
         state.items.splice(index, 1);
       })
-      .addCase(deleteContact.rejected, handleRejected);
+      .addCase(deleteContact.rejected, handleRejected)
+      .addCase(logOut.fulfilled, () => {
+        // очищення стану контактів при виході
+        return { items: [], isLoading: false, error: null };
+      });
   },
 });
 
